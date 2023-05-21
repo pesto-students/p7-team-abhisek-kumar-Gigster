@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 88vw;
+
+  .logo {
+    color: #ff4533;
+  }
+  .links {
+    width: 45vw;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+  .buttons {
+    width: 12vw;
+    color: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .sign-in {
+      color: #ff4533;
+    }
+    .join {
+      background-color: #e8665a;
+      border-radius: 8px;
+      border-style: none;
+      box-sizing: border-box;
+      color: #ffffff;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 16px;
+      margin: 0;
+      outline: none;
+      padding: 8px 16px;
+      text-align: center;
+
+      &:hover,
+      &:focus {
+        transform: translateY(-0.25em);
+      }
+    }
+  }
+}
